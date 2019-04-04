@@ -1,0 +1,25 @@
+@import "../../sass/variables";
+
+.list{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+  min-height: 250px;
+  width:100%;
+  margin-top: 10px;
+  flex-flow: column;
+}
+.list-item{
+  padding: 0 15px;
+  width:100%;
+  min-height:45px;
+  border-bottom: 1px solid $lighter-gray;
+  transition:background 500ms ease;
+  background: transparent;
+  cursor: pointer;
+  align-items: center;
+  &:hover{
+    background: $lighter-gray60;
+  }
+}

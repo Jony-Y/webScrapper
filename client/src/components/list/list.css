@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+  min-height: 250px;
+  width: 100%;
+  margin-top: 10px;
+  flex-flow: column; }
+
+.list-item {
+  padding: 0 15px;
+  width: 100%;
+  min-height: 45px;
+  border-bottom: 1px solid #d8d8d8;
+  transition: background 500ms ease;
+  background: transparent;
+  cursor: pointer;
+  align-items: center; }
+  .list-item:hover {
+    background: rgba(242, 242, 242, 0.6); }
+
+/*# sourceMappingURL=list.css.map */
